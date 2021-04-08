@@ -2088,3 +2088,8 @@ textarea.materialize-textarea {
   background: #FF4F02;
   color: #fff;
 }
+
+#tiger {
+  background-color: green;
+  padding: 40px;
+}
