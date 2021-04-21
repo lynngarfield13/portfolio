@@ -216,6 +216,7 @@ nav .brand-logo img {
   font-size: 15px;
   line-height: 28px;
   margin-bottom: 35px;
+  
 }
 
 
@@ -248,6 +249,7 @@ nav .brand-logo img {
   font-size: 15px;
   margin-bottom: 12px;
   padding-bottom: 12px;
+   
 }
 
 
@@ -390,6 +392,7 @@ nav .brand-logo img {
 
 .experience-slider .card .card-content {  
   padding: 0 20px 20px;
+  height: 10em;   /*lag */
 }
 
 
@@ -403,7 +406,7 @@ nav .brand-logo img {
 .reveal-title {
   color: #727272 !important;
   font-size: 20px !important;
-  line-height: 35px !important;    /* lag */
+  line-height: 25px !important;    /* lag */
 }
 
 
@@ -468,7 +471,7 @@ nav .brand-logo img {
 
 #portfolio{ 
   display: inline;
-  padding-bottom: 100px;
+  padding-bottom: 100px;  
   float: left;
   width: 100%;
 }
@@ -493,6 +496,15 @@ nav .brand-logo img {
   color: #fff;
 }
 
+/* LAG */
+.portfolio-top-inner > p {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  padding-bottom: 2em;
+  padding-top: 0;
+}
 
 .controls{
   display: inline;
@@ -2091,5 +2103,10 @@ textarea.materialize-textarea {
 
 #tiger {
   background-color: green;
+  padding: 40px;
+}
+
+#texas {
+  background-color: #a3c99a;
   padding: 40px;
 }
