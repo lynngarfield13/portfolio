@@ -897,6 +897,10 @@ transition: background-color 0.5s ease-in-out;
   padding: 5px;
 }
 
+/*lag*/ 
+.blog-post .card .card-image2 {
+  padding: 5px; 
+}
 
 .post-comment{
   display: inline-block;
