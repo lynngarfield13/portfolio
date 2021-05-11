@@ -550,7 +550,7 @@ nav .brand-logo img {
 #portfolio-list{
   display: inline;
   float: left;
-  margin-left: -1%;
+  margin-left: 1%;
   width: 100%;
 }
 
@@ -1008,6 +1008,7 @@ transition: background-color 0.5s ease-in-out;
   padding: 20px;
   float: left;
   width: 100%;
+  margin-top: 5px;
 }
 
 
@@ -1052,12 +1053,17 @@ textarea.materialize-textarea {
   display: inline;
   float: left;
   width: 100%;
+
 }
 
 
 .contact-map iframe{
   border-radius: 4px;
   margin-bottom: -5px;
+  width: 100%;
+  height: 100%;
+  margin-top: 5px;
+
 }
 
 
@@ -2114,3 +2120,73 @@ textarea.materialize-textarea {
   background-color: #a3c99a;
   padding: 40px;
 }
+
+
+.python-content{
+  display: inline;
+  float: left;
+  margin-top: 50px;
+  margin-left: 1%;
+  width: 100%
+}
+
+.python-post {
+  display: inline;
+  background: #fff none repeat scroll 0 0;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+  padding: 20px;
+  float: left;
+  margin: 1%;
+}
+
+
+.python-post .card {
+  
+  overflow: scroll;
+}
+
+#python-home {
+  background-image: url("img/home-img1.jpg");
+  background-position: 100% 100%;
+  background-size: 100% 100%;
+  display: inline;
+  height: 300px;
+  position: relative;
+  width: 100%;
+}
+
+
+#python-home .overlay-section {
+  background: rgba(0, 0, 0, 0.7) none repeat scroll 0 0;
+  height: 100%;
+  width: 100%;
+}
+
+
+.python-home-inner {
+  display: inline;
+  padding: 57px 100px;
+  text-align: center;
+  position: relative;
+
+}
+
+
+.python-home-title{
+  color: #fff;
+  font-size: 72px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+
+.python-home-inner>p{
+  color: #fff;
+  font-size: 18px;
+  font-weight: 300;
+  margin-bottom: 38px;
+  text-transform: uppercase;
+}
+
